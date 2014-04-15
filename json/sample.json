@@ -3,80 +3,39 @@
    "type": "dir",
    "contents": [
       {
-<<<<<<< HEAD
-        "name":"ReadMe",
-        "type":"text",
-        "contents":"Hi!. "
+         "name": "file1",
+         "type": "text",
+         "contents": "Hello World!",
+         "description": "FOOO"
       },
       {
-=======
->>>>>>> parent of f1934e7... Update sample.json
-         "name": "Main",
+         "name": "pic.jpg",
+         "type": "img",
+         "contents": "/images/penguin.png",
+         "caption": "What a beautiful penguin."
+      },
+      {
+         "name": "dir1",
          "type": "dir",
          "contents": [
             {
-               "name": "Contact",
+               "name": "file2",
                "type": "text",
-               "contents": "esorensen.private at gmail dot com +47 992 49 130",
+               "contents": "foo"
             },
             {
-               "name": "Bio",
+               "name": "foo",
                "type": "dir",
                "contents": [
                   {
-                     "name": "About",
-                     "type": "text",
-                     "contents": "Born and raised in Norway",
-                     "description": "What did you expect?"
-                  },
-                  {
-                     "name":"CV",
-                     "type":"text",
-                     "contents":"Telematics engineer"
+                     "name": "file3",
+                     "type": "exec",
+                     "contents": "http://google.com",
+                     "description": "blahblah"
                   }
                ]
             }
          ]
-      },
-      {
-         "name":"Pictures",
-         "type":"dir", 
-         "contents":[
-               {
-                  "name": "me",
-                  "type": "img",
-                  "contents": "/images/me.jpg",
-                  "caption": "Bearded tech-head"
-               },
-               {
-                  "name":"friends",
-                  "type":"img",
-                  "contents":"/images/friends.jpg",
-                  "caption":"Me and my friends"
-               }
-         ]
-      },
-      {
-         "name": "Other links to me",
-         "type": "dir",
-         "contents": [
-            {
-               "name": "Twitter",
-               "type": "exec",
-               "contents": "http://www.twitter.com/eriksor"
-            },
-            {
-               "name":"LinkedIn",
-               "type":"exec",
-               "contents":"https://no.linkedin.com/in/eriksore/"
-            },
-            {
-               "name":"GitHub",
-               "type":"exec",
-               "contents":"https://github.com/eriksore"
-            }
-         ]
       }
-      
    ]
 }
