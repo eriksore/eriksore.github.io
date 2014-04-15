@@ -3,16 +3,28 @@
    "type": "dir",
    "contents": [
       {
-         "name": "Welcome",
+         "name": "welcome",
          "type": "text",
          "contents": "Welcome to my webpage",
          "description": "FOOO"
       },
       {
-         "name": "me",
-         "type": "img",
-         "contents": "/images/me.jpg",
-         "caption": "A bearded me."
+         "name":"pictures,
+         "type":"dir",
+         "contents":[
+               {
+                  "name": "me",
+                  "type": "img",
+                  "contents": "/images/me.jpg",
+                  "caption": "A bearded me."
+               },
+               {
+                  "name":"friends",
+                  "type":"img",
+                  "contents":"/images/friends.jpg",
+                  "caption":"Me and my friends"
+               }
+            ]
       },
       {
          "name": "links",
