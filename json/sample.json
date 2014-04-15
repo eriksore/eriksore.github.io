@@ -3,11 +3,14 @@
    "type": "dir",
    "contents": [
       {
+<<<<<<< HEAD
         "name":"ReadMe",
         "type":"text",
         "contents":"Hi! Welcome to my home page. I'm Erik Sorensen, a late 20-ish telematics engineer. My main interests are towards networking and SDN. "
       },
       {
+=======
+>>>>>>> parent of f1934e7... Update sample.json
          "name": "Main",
          "type": "dir",
          "contents": [
