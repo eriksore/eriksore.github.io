@@ -489,6 +489,7 @@
       term.enqueue('login')
           .enqueue('erik')
           .enqueue('*******')
+          .enqueue('cat ReadMe')
           .enqueue('help')
           .enqueue('ls -l')
           .enqueue('tree')
