@@ -31,10 +31,22 @@
          ]
       },
       {
-         "name": "My_picture",
-         "type": "img",
-         "contents": "/images/me.jpg",
-         "caption": "Bearded tech-head"
+         "name":"Pictures",
+         "type":"dir", 
+         "contents":[
+               {
+                  "name": "me",
+                  "type": "img",
+                  "contents": "/images/me.jpg",
+                  "caption": "Bearded tech-head"
+               },
+               {
+                  "name":"friends",
+                  "type":"img",
+                  "contents":"/images/friends.jpg",
+                  "caption":"Me and my friends"
+               }
+         ]
       },
       {
          "name": "Other links to me",
@@ -44,11 +56,6 @@
                "name": "Twitter",
                "type": "exec",
                "contents": "http://www.twitter.com/eriksor"
-            },
-            {
-               "name":"Facebook",
-               "type":"exec",
-               "contents":"https://www.facebook.com/esoerensen"
             },
             {
                "name":"LinkedIn",
