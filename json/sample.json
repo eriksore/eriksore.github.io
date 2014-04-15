@@ -3,6 +3,35 @@
    "type": "dir",
    "contents": [
       {
+         "name": "Main",
+         "type": "dir",
+         "contents": [
+            {
+               "name": "Contact",
+               "type": "text",
+               "contents": "esorensen.private at gmail dot com"
+            },
+            {
+               "name": "Bio",
+               "type": "dir",
+               "contents": [
+                  {
+                     "name": "My bio",
+                     "type": "text",
+                     "contents": "Born and raised in Norway",
+                     "description": "What did you expect?"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "My_picture",
+         "type": "img",
+         "contents": "/images/me.jpg",
+         "caption": "Bearded tech-head"
+      },
+      {
          "name": "Other links to me",
          "type": "dir",
          "contents": [
@@ -27,35 +56,7 @@
                "contents":"https://github.com/eriksore"
             }
          ]
-      },
-      {
-         "name": "My_picture",
-         "type": "img",
-         "contents": "/images/me.jpg",
-         "caption": "Bearded tech-head"
-      },
-      {
-         "name": "dir1",
-         "type": "dir",
-         "contents": [
-            {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
-            },
-            {
-               "name": "foo",
-               "type": "dir",
-               "contents": [
-                  {
-                     "name": "file3",
-                     "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
-                  }
-               ]
-            }
-         ]
       }
+      
    ]
 }
