@@ -3,7 +3,7 @@
    "type": "dir",
    "contents": [
       {
-         "name": "welcome",
+         "name": "Welcome",
          "type": "text",
          "contents": "Welcome to my webpage",
          "description": "FOOO"
@@ -31,21 +31,19 @@
          "type": "dir",
          "contents": [
             {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
+               "name": "Twitter",
+               "type": "exec",
+               "contents": "https://www.twitter.com/eriksor"
             },
             {
-               "name": "foo",
-               "type": "dir",
-               "contents": [
-                  {
-                     "name": "file3",
-                     "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
-                  }
-               ]
+               "name":"GitHub",
+               "type":"exec",
+               "contents":"https://github.com/eriksore/"
+            },
+            {
+               "name":"LinkedIn",
+               "type":"exec",
+               "contents":"https://no.linkedin.com/in/eriksore/"
             }
          ]
       }
