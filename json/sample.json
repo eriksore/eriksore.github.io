@@ -6,7 +6,7 @@
 <<<<<<< HEAD
         "name":"ReadMe",
         "type":"text",
-        "contents":"Hi! Welcome to my home page. I'm Erik Sorensen, a late 20-ish telematics engineer. My main interests are towards networking and SDN. "
+        "contents":"Hi!. "
       },
       {
 =======
@@ -17,7 +17,7 @@
             {
                "name": "Contact",
                "type": "text",
-               "contents": "esorensen.private at gmail dot com\n+47 992 49 130",
+               "contents": "esorensen.private at gmail dot com +47 992 49 130",
             },
             {
                "name": "Bio",
