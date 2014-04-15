@@ -5,7 +5,7 @@
       {
         "name":"ReadMe",
         "type":"text",
-        "contents":"Hi! Welcome to my home page. I'm Erik Sorensen, a late 20-ish software \n and telematics engineer working primarily on SDN "
+        "contents":"Hi! Welcome to my home page. I'm Erik Sorensen, a late 20-ish telematics engineer. My main interests are towards networking and SDN. "
       },
       {
          "name": "Main",
@@ -14,8 +14,7 @@
             {
                "name": "Contact",
                "type": "text",
-               "contents": "esorensen.private at gmail dot com",
-               "contents": "992 49 130"
+               "contents": "esorensen.private at gmail dot com\n+47 992 49 130",
             },
             {
                "name": "Bio",
