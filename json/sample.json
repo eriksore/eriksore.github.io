@@ -3,21 +3,36 @@
    "type": "dir",
    "contents": [
       {
-         "name": "Links",
+         "name": "Other links to me",
          "type": "dir",
          "contents": [
             {
-               "name": "twitter",
+               "name": "Twitter",
                "type": "exec",
                "contents": "http://www.twitter.com/eriksor"
+            },
+            {
+               "name":"Facebook",
+               "type":"exec",
+               "contents":"https://www.facebook.com/esoerensen"
+            },
+            {
+               "name":"LinkedIn",
+               "type":"exec",
+               "contents":"https://no.linkedin.com/in/eriksore/"
+            },
+            {
+               "name":"GitHub",
+               "type":"exec",
+               "contents":"https://github.com/eriksore"
             }
          ]
       },
       {
-         "name": "pic.jpg",
+         "name": "My picture",
          "type": "img",
          "contents": "/images/penguin.png",
-         "caption": "What a beautiful penguin."
+         "caption": "Bearded tech-head"
       },
       {
          "name": "dir1",
