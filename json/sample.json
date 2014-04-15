@@ -9,6 +9,27 @@
          "description": "FOOO"
       },
       {
+         "name":"about",
+         "type":"dir",
+         "contents":[
+               {
+                  "name": "Contact",
+                  "type": "text",
+                  "contents": "esorensen.private at gmail dot com\n+4799249130"
+               },
+               {
+                  "name": "Bio",
+                  "type": "text",
+                  "contents": "Born and raised in Klofta"
+               },
+               {
+                  "name": "CV",
+                  "type": "text",
+                  "contents": "Telematics Engineer"
+               }
+            ]
+      },
+      {
          "name":"pictures",
          "type":"dir",
          "contents":[
