@@ -3,10 +3,15 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
-         "type": "text",
-         "contents": "Hello World!",
-         "description": "FOOO"
+         "name": "Links",
+         "type": "dir",
+         "contents": [
+            {
+               "name": "twitter",
+               "type": "exec",
+               "contents": "http://www.twitter.com/eriksor"
+            }
+         ]
       },
       {
          "name": "pic.jpg",
