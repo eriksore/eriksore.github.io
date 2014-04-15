@@ -29,7 +29,7 @@
          ]
       },
       {
-         "name": "My picture",
+         "name": "My_picture",
          "type": "img",
          "contents": "/images/me.jpg",
          "caption": "Bearded tech-head"
