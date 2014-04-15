@@ -16,10 +16,15 @@
                "type": "dir",
                "contents": [
                   {
-                     "name": "My bio",
+                     "name": "About",
                      "type": "text",
                      "contents": "Born and raised in Norway",
                      "description": "What did you expect?"
+                  },
+                  {
+                     "name":"CV",
+                     "type":"text",
+                     "contents":"Telematics engineer"
                   }
                ]
             }
