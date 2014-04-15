@@ -9,7 +9,7 @@
          "description": "FOOO"
       },
       {
-         "name":"pictures,
+         "name":"pictures",
          "type":"dir",
          "contents":[
                {
