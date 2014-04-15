@@ -3,19 +3,19 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
+         "name": "Welcome",
          "type": "text",
-         "contents": "Hello World!",
+         "contents": "Welcome to my webpage",
          "description": "FOOO"
       },
       {
-         "name": "pic.jpg",
+         "name": "me",
          "type": "img",
-         "contents": "/images/penguin.png",
-         "caption": "What a beautiful penguin."
+         "contents": "/images/me.jpg",
+         "caption": "A bearded me."
       },
       {
-         "name": "dir1",
+         "name": "links",
          "type": "dir",
          "contents": [
             {
