@@ -489,7 +489,7 @@
       term.enqueue('login')
           .enqueue('erik')
           .enqueue('******')
-          
+          .enqueue('cat Welcome')
           .enqueue('help')
           
           .enqueue('tree')
