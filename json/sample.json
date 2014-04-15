@@ -1,6 +1,6 @@
 {
    "name": "~",
-   "type": "dir,
+   "type": "dir",
    "contents": [
       {
         "name":"ReadMe",
@@ -76,5 +76,4 @@
       }
       
    ]
-    
 }
