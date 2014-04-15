@@ -3,31 +3,38 @@
    "type": "dir",
    "contents": [
       {
-         "name": "ReadMe",
+         "name": "file1",
          "type": "text",
-         "contents": "Welcome to my webpage!",
+         "contents": "Hello World!",
          "description": "FOOO"
       },
       {
-         "name": "me.jpg",
+         "name": "pic.jpg",
          "type": "img",
-         "contents": "/images/me.jpg",
-         "caption": "Bearded ugliness."
+         "contents": "/images/penguin.png",
+         "caption": "What a beautiful penguin."
       },
       {
-         "name": "Links",
+         "name": "dir1",
          "type": "dir",
          "contents": [
             {
-               "name": "twitter",
-               "type": "exec",
-               "contents": "http://www.twitter.com/eriksor"
+               "name": "file2",
+               "type": "text",
+               "contents": "foo"
             },
             {
-               "name":"facebook",
-               "type":"exec",
-               "contents":"https://www.facebook.com/esoerensen"
-            },
+               "name": "foo",
+               "type": "dir",
+               "contents": [
+                  {
+                     "name": "file3",
+                     "type": "exec",
+                     "contents": "http://google.com",
+                     "description": "blahblah"
+                  }
+               ]
+            }
          ]
       }
    ]
