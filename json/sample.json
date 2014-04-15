@@ -3,6 +3,11 @@
    "type": "dir",
    "contents": [
       {
+        "name":"ReadMe",
+        "type":"text",
+        "contents":"Hi! Welcome to my home page. I'm Erik Sorensen, a late 20-ish software \n and telematics engineer working primarily on SDN "
+      },
+      {
          "name": "Main",
          "type": "dir",
          "contents": [
