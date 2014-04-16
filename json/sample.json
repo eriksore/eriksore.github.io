@@ -5,7 +5,7 @@
       {
          "name": "Welcome",
          "type": "text",
-         "contents": "Welcome to my webpage",
+         "contents": "Welcome to my webpage!\\If you would like to see the folder structure. 'tree' is a good command to start with",
          "description": "FOOO"
       },
       {
