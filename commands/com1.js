@@ -191,7 +191,17 @@ COMMANDS.tree = function(argv, cb) {
    writeTree(home, 0);
    cb();
 }
-
+COMMANDS.info = function(argv, cb) {
+   this._terminal.write(
+      '.----.______ \n'+
+      '|mga        | \n'+
+      '|    ___________ \n'+
+      '|   /          / \n'+
+      '|  /          / \n'+
+      '| /          / \n'+
+      '|/__________/ \n'
+      );
+   }
 COMMANDS.help = function(argv, cb) {
    this._terminal.write(
        'You can navigate either by clicking on anything that ' +
@@ -209,4 +219,5 @@ COMMANDS.help = function(argv, cb) {
          this._terminal.write(c + '  ');
    }
    cb();
+
 }
