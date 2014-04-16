@@ -204,6 +204,7 @@ COMMANDS.welcome = function(argv, cb) {
       '| /          / \n'+
       '|/__________/ \n'
       );
+      cb();
    }
 COMMANDS.help = function(argv, cb) {
    this._terminal.write(
