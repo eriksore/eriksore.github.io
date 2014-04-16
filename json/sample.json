@@ -67,8 +67,7 @@
                "contents":"https://no.linkedin.com/in/eriksore/"
             },
             "name":"Stackoverflow",
-            "type":"exec",
-            "contents":"http://stackoverflow.com/users/2394561/eriksorensen"
+            "type":"stack",
          ]
       }
    ]
