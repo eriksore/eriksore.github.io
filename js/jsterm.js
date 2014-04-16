@@ -491,8 +491,6 @@
           .enqueue('******')
           .enqueue('cat Welcome')
           .enqueue('help')
-          
-          .enqueue('tree')
           .begin();
    });
 
