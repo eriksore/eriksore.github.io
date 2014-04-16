@@ -66,8 +66,10 @@
                "type":"exec",
                "contents":"https://no.linkedin.com/in/eriksore/"
             },
+            {
             "name":"Stackoverflow",
-            "type":"stack",
+            "type":"stack"
+            }
          ]
       }
    ]
