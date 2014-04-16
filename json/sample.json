@@ -5,16 +5,14 @@
       {
          "name": "Welcome",
          "type": "text",
-         "contents": "Welcome to my webpage!
-         \n
-         \nIf you would like to see the folder structure. 'tree' is a good command to start with"
+         "contents": "Welcome to my webpage!\n\nIf you would like to see the folder structure. 'tree' is a good command to start with
          \n.----.______
-         \n|mga        |
+         \n|files    |
          \n|    ___________
          \n|   /          /
          \n|  /          /
          \n| /          /
-         \n|/__________/,
+         \n|/__________/",
          "description": "FOOO"
       },
       {
