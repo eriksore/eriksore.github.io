@@ -194,7 +194,7 @@ COMMANDS.tree = function(argv, cb) {
 COMMANDS.welcome = function(argv, cb) {
    this._terminal.write(
       'Welcome to my home page!\n'+
-      'If you know Linux, you know what to do. Else, type the comman \'tree\''+
+      'If you know Linux, you know what to do. Else, the command \'tree\' is a good place to start'+
       '\n'+
       '.----.______ \n'+
       '|files      | \n'+
