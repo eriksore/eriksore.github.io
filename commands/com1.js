@@ -191,10 +191,13 @@ COMMANDS.tree = function(argv, cb) {
    writeTree(home, 0);
    cb();
 }
-COMMANDS.info = function(argv, cb) {
+COMMANDS.welcome = function(argv, cb) {
    this._terminal.write(
+      'Welcome to my home page!\n'+
+      'If you know Linux, you know what to do. Else, type the comman \'tree\''+
+      '\n'+
       '.----.______ \n'+
-      '|mga        | \n'+
+      '|files      | \n'+
       '|    ___________ \n'+
       '|   /          / \n'+
       '|  /          / \n'+
