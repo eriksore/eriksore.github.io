@@ -21,8 +21,8 @@ div.jsterm {
    font-family: monospace;
    font-size: 16px;
    color: #E0E0E0;
-   width: 900px;
-   bottom:200px;
+   width: 100%;
+   height: 80%
    margin-bottom: 20px;
    white-space: pre-wrap;
 }
@@ -68,6 +68,7 @@ div.jsterm .img, div.jsterm .img a {
 .share_box{
    display: inline;
    position:fixed;
+   height: 20%;
    width:100%;
    bottom:0%;
    left:0%;
