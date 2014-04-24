@@ -286,9 +286,7 @@
          } else if (entry.type == 'exec') {
             return '<a href="' + entry.contents + '" target="_blank">' +
                 entry.name + '</a>';
-         } //else if (entry.type == 'stack') {
-            //return '<a href="http://stackoverflow.com/users/2394561/eriksorensen"><img src="http://stackoverflow.com/users/flair/2394561.png" width="208" height="58" alt="profile for ErikSorensen at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for ErikSorensen at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>'
-         //}
+         } 
       },
 
       _dequeue: function() {
