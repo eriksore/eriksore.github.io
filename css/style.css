@@ -64,3 +64,15 @@ div.jsterm .img, div.jsterm .img a {
 #blinker {
     line-height: .9em;
 }
+.cmd_box{
+   position:fixed;
+   width:50px;
+   top:10%;
+   left:10%;
+   border:3px solid #a1a1a1;
+   background:#FFF;
+   padding:15px;
+   -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+}
