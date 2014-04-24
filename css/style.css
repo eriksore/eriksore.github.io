@@ -67,9 +67,9 @@ div.jsterm .img, div.jsterm .img a {
 .share_box{
    display: inline;
    position:fixed;
-   width:300px;
+   width:500px;
    top:10%;
-   left:90%;
+   left:80%;
    border:3px solid #a1a1a1;
    background:#FFF;
    padding:15px;
