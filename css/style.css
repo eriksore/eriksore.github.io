@@ -68,8 +68,8 @@ div.jsterm .img, div.jsterm .img a {
    display: inline;
    position:fixed;
    width:500px;
-   top:10%;
-   left:80%;
+   top:0%;
+   right:0%;
    border:3px solid #a1a1a1;
    background:#FFF;
    padding:15px;
