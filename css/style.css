@@ -21,6 +21,8 @@ div.jsterm {
    font-family: monospace;
    font-size: 16px;
    color: #E0E0E0;
+   top:0%;
+   left:0%;
    width: 100%;
    height: 80%
    margin-bottom: 20px;
