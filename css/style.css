@@ -65,6 +65,7 @@ div.jsterm .img, div.jsterm .img a {
     line-height: .9em;
 }
 .share_box{
+   display: inline;
    position:fixed;
    width:120px;
    top:10%;
