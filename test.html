@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulting Excellence | Strategic Business Solutions</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#0B3C5D',
+secondary: '#1D70A2'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.nav-scrolled { background: rgba(255, 255, 255, 0.95); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.testimonial-slider { scroll-snap-type: x mandatory; }
+.testimonial-slide { scroll-snap-align: start; }
+</style>
+</head>
+<body class="font-['Inter']">
+<nav id="navbar" class="fixed w-full z-50 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+<a href="#" class="text-3xl font-['Pacifico'] text-primary">logo</a>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#services" class="text-gray-700 hover:text-primary">Services</a>
+<a href="#team" class="text-gray-700 hover:text-primary">Team</a>
+<a href="#cases" class="text-gray-700 hover:text-primary">Case Studies</a>
+<a href="#contact" class="text-gray-700 hover:text-primary">Contact</a>
+<button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-all duration-300 whitespace-nowrap cursor-pointer">
+Schedule a Call
+</button>
+</div>
+<button class="md:hidden w-10 h-10 flex items-center justify-center">
+<i class="ri-menu-line text-2xl"></i>
+</button>
+</div>
+</nav>
+<header class="relative min-h-screen flex items-center pt-20" style="background: url('https://public.readdy.ai/ai/img_res/1131bc9529f9b0bc9b436c22929bfa65.jpg') center/cover">
+<div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-transparent"></div>
+<div class="relative max-w-7xl mx-auto px-6 py-20">
+<div class="max-w-2xl text-white">
+<h1 class="text-5xl font-bold leading-tight mb-6">Strategic Solutions for Business Growth</h1>
+<p class="text-xl mb-8">Transform your business with data-driven insights and expert consultation. We help companies navigate change and achieve sustainable growth.</p>
+<div class="flex space-x-4">
+<button class="bg-white text-primary px-8 py-3 !rounded-button hover:bg-opacity-90 transition-all duration-300 font-medium whitespace-nowrap cursor-pointer">
+Schedule Consultation
+</button>
+<button class="border-2 border-white text-white px-8 py-3 !rounded-button hover:bg-white hover:text-primary transition-all duration-300 font-medium whitespace-nowrap cursor-pointer">
+Learn More
+</button>
+</div>
+</div>
+</div>
+</header>
+<section id="services" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Our Services</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">We offer comprehensive consulting services to help your business thrive in today's competitive landscape.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+<i class="ri-line-chart-line text-2xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Strategic Planning</h3>
+<p class="text-gray-600 mb-6">Develop comprehensive business strategies aligned with your goals and market opportunities.</p>
+<a href="#" class="text-primary font-medium hover:underline">Learn More →</a>
+</div>
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+<i class="ri-funds-line text-2xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Financial Advisory</h3>
+<p class="text-gray-600 mb-6">Expert financial guidance to optimize performance and maximize shareholder value.</p>
+<a href="#" class="text-primary font-medium hover:underline">Learn More →</a>
+</div>
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mb-6">
+<i class="ri-team-line text-2xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Organizational Development</h3>
+<p class="text-gray-600 mb-6">Transform your organization through effective change management and leadership development.</p>
+<a href="#" class="text-primary font-medium hover:underline">Learn More →</a>
+</div>
+</div>
+</div>
+</section>
+<section id="testimonials" class="py-20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Client Success Stories</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">See what our clients say about their experience working with us.</p>
+</div>
+<div class="testimonial-slider overflow-x-auto flex space-x-6 pb-8">
+<div class="testimonial-slide flex-none w-full md:w-1/2 bg-white p-8 rounded-lg shadow-sm">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/ce96718f10b7e19df15ad7a6ee8e8fd0.jpg" alt="Client" class="w-16 h-16 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold">Michael Richardson</h4>
+<p class="text-gray-600">CEO, TechVision Solutions</p>
+</div>
+</div>
+<p class="text-gray-700">"The strategic insights and guidance provided by the team have been instrumental in our company's growth. Their expertise in market analysis and business strategy helped us achieve a 45% increase in revenue."</p>
+</div>
+<div class="testimonial-slide flex-none w-full md:w-1/2 bg-white p-8 rounded-lg shadow-sm">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/0d7f04aafaa053cbbd8dbd346088bbbb.jpg" alt="Client" class="w-16 h-16 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold">Sarah Chen</h4>
+<p class="text-gray-600">COO, Global Innovations</p>
+</div>
+</div>
+<p class="text-gray-700">"Working with this consulting team has transformed our operational efficiency. Their hands-on approach and deep industry knowledge helped us streamline processes and reduce costs by 30%."</p>
+</div>
+</div>
+</div>
+</section>
+<section id="cases" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Case Studies</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Explore how we've helped organizations overcome challenges and achieve their goals.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<img src="https://public.readdy.ai/ai/img_res/554f6774f3a59a1a0c1a2db409db3025.jpg" alt="Case Study" class="w-full h-64 object-cover">
+<div class="p-8">
+<div class="flex space-x-2 mb-4">
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Strategy</span>
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Growth</span>
+</div>
+<h3 class="text-xl font-semibold mb-4">Digital Transformation Success: Global Retail Chain</h3>
+<p class="text-gray-600 mb-6">How we helped a leading retail chain achieve 200% digital sales growth through strategic transformation.</p>
+<a href="#" class="text-primary font-medium hover:underline">Read Full Case Study →</a>
+</div>
+</div>
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<img src="https://public.readdy.ai/ai/img_res/3ea0fbb967f506df9ef250e9a6194ab9.jpg" alt="Case Study" class="w-full h-64 object-cover">
+<div class="p-8">
+<div class="flex space-x-2 mb-4">
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Analytics</span>
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Operations</span>
+</div>
+<h3 class="text-xl font-semibold mb-4">Operational Excellence: Manufacturing Innovation</h3>
+<p class="text-gray-600 mb-6">Implementing data-driven solutions to increase manufacturing efficiency by 65%.</p>
+<a href="#" class="text-primary font-medium hover:underline">Read Full Case Study →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="team" class="py-20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Our Leadership Team</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Meet the experts behind our success stories.</p>
+</div>
+<div class="grid md:grid-cols-4 gap-8">
+<div class="text-center cursor-pointer team-member" onclick="showModal('david')">
+<img src="https://public.readdy.ai/ai/img_res/1d2401395cbc0628b1e0c524d61c8da0.jpg" alt="Team Member" class="w-full h-64 object-cover rounded-lg mb-4">
+<h3 class="text-xl font-semibold mb-2">David Anderson</h3>
+<p class="text-gray-600 mb-4">Managing Director</p>
+<a href="#" class="w-8 h-8 inline-flex items-center justify-center text-gray-600 hover:text-primary" onclick="event.stopPropagation()">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+</div>
+<div class="text-center cursor-pointer team-member" onclick="showModal('michelle')">
+<img src="https://public.readdy.ai/ai/img_res/4f0ce36306c85a6f9b21ca609be7d1a1.jpg" alt="Team Member" class="w-full h-64 object-cover rounded-lg mb-4">
+<h3 class="text-xl font-semibold mb-2">Michelle Thompson</h3>
+<p class="text-gray-600 mb-4">Strategy Director</p>
+<a href="#" class="w-8 h-8 inline-flex items-center justify-center text-gray-600 hover:text-primary" onclick="event.stopPropagation()">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+</div>
+<div class="text-center cursor-pointer team-member" onclick="showModal('raj')">
+<img src="https://public.readdy.ai/ai/img_res/86d3c63c260322ec0d6982082366a718.jpg" alt="Team Member" class="w-full h-64 object-cover rounded-lg mb-4">
+<h3 class="text-xl font-semibold mb-2">Raj Patel</h3>
+<p class="text-gray-600 mb-4">Technology Lead</p>
+<a href="#" class="w-8 h-8 inline-flex items-center justify-center text-gray-600 hover:text-primary" onclick="event.stopPropagation()">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+</div>
+<div class="text-center cursor-pointer team-member" onclick="showModal('emma')">
+<img src="https://public.readdy.ai/ai/img_res/054298768307a8b2efe6c2697cf1d14a.jpg" alt="Team Member" class="w-full h-64 object-cover rounded-lg mb-4">
+<h3 class="text-xl font-semibold mb-2">Emma Schmidt</h3>
+<p class="text-gray-600 mb-4">Operations Director</p>
+<a href="#" class="w-8 h-8 inline-flex items-center justify-center text-gray-600 hover:text-primary" onclick="event.stopPropagation()">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+</div>
+</div>
+<div id="modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
+  <div class="bg-white rounded-lg max-w-2xl w-full mx-4 relative">
+    <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+      <i class="ri-close-line text-2xl"></i>
+    </button>
+    <div class="p-8" id="modalContent"></div>
+  </div>
+</div>
+</div>
+</section>
+<section id="contact" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid md:grid-cols-2 gap-16">
+<div>
+<h2 class="text-4xl font-bold mb-8">Get in Touch</h2>
+<p class="text-gray-600 mb-8">Ready to transform your business? Contact us to schedule a consultation with our experts.</p>
+<div class="space-y-6">
+<div class="flex items-start">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-map-pin-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold mb-1">Office Location</h4>
+<p class="text-gray-600">123 Business Avenue, New York, NY 10001</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-phone-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold mb-1">Phone</h4>
+<p class="text-gray-600">+1 (555) 123-4567</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+<i class="ri-mail-line text-xl text-primary"></i>
+</div>
+<div>
+<h4 class="font-semibold mb-1">Email</h4>
+<p class="text-gray-600">contact@consultingexcellence.com</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<form class="bg-white p-8 rounded-lg shadow-sm">
+<div class="grid md:grid-cols-2 gap-6 mb-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+<input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-button focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary" required>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+<input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-button focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary" required>
+</div>
+</div>
+<div class="mb-6">
+<label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+<input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-button focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary" required>
+</div>
+<div class="mb-6">
+<label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+<textarea rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-button focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary" required></textarea>
+</div>
+<button type="submit" class="w-full bg-primary text-white px-6 py-3 !rounded-button hover:bg-opacity-90 transition-all duration-300 font-medium whitespace-nowrap cursor-pointer">
+Send Message
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-gray-900 text-white py-20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-12 mb-16">
+<div>
+<a href="#" class="text-3xl font-['Pacifico'] text-white mb-6 block">logo</a>
+<p class="text-gray-400">Transforming businesses through strategic consulting and innovative solutions.</p>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+<ul class="space-y-4">
+<li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Case Studies</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-6">Connect</h4>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-700 text-gray-400 hover:text-white hover:border-white">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-700 text-gray-400 hover:text-white hover:border-white">
+<i class="ri-twitter-fill text-xl"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-700 text-gray-400 hover:text-white hover:border-white">
+<i class="ri-facebook-fill text-xl"></i>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-6">Newsletter</h4>
+<form class="space-y-4">
+<input type="email" placeholder="Your email" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-button text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary">
+<button type="submit" class="w-full bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-all duration-300 whitespace-nowrap cursor-pointer">
+Subscribe
+</button>
+</form>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm">© 2025 Consulting Excellence. All rights reserved.</p>
+<div class="flex space-x-6 mt-4 md:mt-0">
+<a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<button id="backToTop" class="fixed bottom-8 right-8 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 cursor-pointer">
+<i class="ri-arrow-up-line text-xl"></i>
+</button>
+<script>
+const navbar = document.getElementById('navbar');
+const backToTop = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+if (window.scrollY > 100) {
+navbar.classList.add('nav-scrolled');
+backToTop.classList.remove('opacity-0', 'invisible');
+} else {
+navbar.classList.remove('nav-scrolled');
+backToTop.classList.add('opacity-0', 'invisible');
+}
+});
+backToTop.addEventListener('click', () => {
+window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+const form = document.querySelector('form');
+form.addEventListener('submit', (e) => {
+e.preventDefault();
+const formData = new FormData(form);
+console.log('Form submitted:', Object.fromEntries(formData));
+form.reset();
+});
+const teamData = {
+  david: {
+    name: "David Anderson",
+    title: "Managing Director",
+    education: "MBA from Harvard Business School",
+    experience: "25+ years in management consulting",
+    expertise: ["Strategic Planning", "Mergers & Acquisitions", "Corporate Governance"],
+    achievements: [
+      "Led 50+ successful corporate transformations",
+      "Former Partner at McKinsey & Company",
+      "Board member of Fortune 500 companies"
+    ]
+  },
+  michelle: {
+    name: "Michelle Thompson",
+    title: "Strategy Director",
+    education: "Ph.D. in Business Strategy from Stanford University",
+    experience: "18+ years in strategic consulting",
+    expertise: ["Business Strategy", "Market Analysis", "Digital Transformation"],
+    achievements: [
+      "Developed growth strategies for tech giants",
+      "Published author in Harvard Business Review",
+      "Keynote speaker at Global Strategy Summit"
+    ]
+  },
+  raj: {
+    name: "Raj Patel",
+    title: "Technology Lead",
+    education: "MS in Computer Science from MIT",
+    experience: "12+ years in technology consulting",
+    expertise: ["Digital Innovation", "AI Implementation", "Tech Strategy"],
+    achievements: [
+      "Pioneered AI solutions for Fortune 100 clients",
+      "Led digital transformation of major banks",
+      "Patent holder for ML algorithms"
+    ]
+  },
+  emma: {
+    name: "Emma Schmidt",
+    title: "Operations Director",
+    education: "MBA from INSEAD",
+    experience: "15+ years in operations management",
+    expertise: ["Process Optimization", "Supply Chain Management", "Change Management"],
+    achievements: [
+      "Reduced operational costs by 40% for clients",
+      "Implemented lean management in 100+ companies",
+      "Award-winning operational excellence programs"
+    ]
+  }
+};
+function showModal(id) {
+  const modal = document.getElementById('modal');
+  const modalContent = document.getElementById('modalContent');
+  const data = teamData[id];
+  
+  modalContent.innerHTML = `
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold mb-2">${data.name}</h2>
+      <p class="text-xl text-gray-600">${data.title}</p>
+    </div>
+    <div class="space-y-6">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Education</h3>
+        <p class="text-gray-600">${data.education}</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Experience</h3>
+        <p class="text-gray-600">${data.experience}</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Areas of Expertise</h3>
+        <div class="flex flex-wrap gap-2">
+          ${data.expertise.map(item => `
+            <span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">${item}</span>
+          `).join('')}
+        </div>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">Key Achievements</h3>
+        <ul class="list-disc list-inside text-gray-600 space-y-2">
+          ${data.achievements.map(item => `
+            <li>${item}</li>
+          `).join('')}
+        </ul>
+      </div>
+    </div>
+  `;
+  
+  modal.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal() {
+  const modal = document.getElementById('modal');
+  modal.classList.add('hidden');
+  document.body.style.overflow = 'auto';
+}
+document.getElementById('modal').addEventListener('click', (e) => {
+  if (e.target === e.currentTarget) {
+    closeModal();
+  }
+});
+</script>
+</body>
+</html>
